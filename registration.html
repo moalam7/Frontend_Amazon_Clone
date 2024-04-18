@@ -3,8 +3,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Registration</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="nav-transparent-logo">
+      <a href="/">
+        <img src="images/amazon_big_logo.png" width="100" alt="Amazon Logo" />
+      </a>
+    </div>
     <h1>Create Account</h1>
     <form action="#">
       <label for="name">Your name:</label><br />
@@ -29,7 +35,20 @@
     <p>Create a free business account</p>
 
     <p>Already have an account? Sign in</p>
+
+    <p>How did you hear about us?</p>
+    <input type="radio" id="hear_1" name="hear_about" value="Word of mouth" />
+    <label for="hear_1">Word of mouth</label><br />
+    <input type="radio" id="hear_2" name="hear_about" value="Online advertisement" />
+    <label for="hear_2">Online advertisement</label><br />
+    <input type="radio" id="hear_3" name="hear_about" value="Social media" />
+    <label for="hear_3">Social media</label><br />
+    <input type="radio" id="hear_4" name="hear_about" value="Other" />
+    <label for="hear_4">Other</label><br />
   </body>
+
+  <hr />
+
   <footer>
     <a href="#">Conditions of Use</a>
     <a href="#">Privacy Notice</a>

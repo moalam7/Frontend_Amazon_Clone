@@ -34,3 +34,8 @@ nav{
   color: white;
   font-size: 14px;
 }
+
+.nav-transparent-logo{
+  display: flex;
+  align-items: center;
+}
