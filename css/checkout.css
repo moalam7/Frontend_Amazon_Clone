@@ -13,9 +13,7 @@
   margin-right: calc(-.5* var(--bs-gutter-x));
   margin-left: calc(-.5* var(--bs-gutter-x));
 }
-*, ::after, ::before {
-  box-sizing: border-box;
-}
+
 user agent stylesheet
 div {
   display: block;
