@@ -4,22 +4,9 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: #dadada;
-}
-
 a{
   text-decoration:none;
   color: inherit;
-}
-
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #131921;
-  padding: 10px 20px;
-  color: #fff;
 }
 
 .nav-country{
@@ -279,4 +266,8 @@ body {
   --docsearch-footer-height: 44px;
   --docsearch-footer-background: #fff;
   --docsearch-footer-shadow: 0 -1px 0 0 #e0e3e8,0 -3px 6px 0 rgba(69,98,155,0.12);
+}
+
+.custom-nav {
+  background-color: #131921;
 }
