@@ -1,34 +1,3 @@
-/* *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-a{
-  text-decoration:none;
-  color: inherit;
-}
-
-.nav-country{
-  display: flex;
-  align-items: end;
-  margin-left: 10px;
-  font-size: 13px;
-  color: #c4c4c4;
-}
-
-.nav-country h1{
-  color: white;
-  font-size: 14px;
-}
-
-.nav-transparent-logo{
-  display: flex;
-  align-items: center;
-}
-
-*/
-
 *{
   box-sizing: border-box;
 }
