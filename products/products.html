@@ -12,51 +12,57 @@
     <link rel="stylesheet" href="../css/products.css" />
   </head>
   <body>
-    <nav class="py-2 bg-body-tertiary border-bottom text-center custom-nav" data-bs-theme="dark">
-      <div class="container d-flex flex-wrap align-items-center justify-content-between" >
-        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 link-body-emphasis text-decoration-none">
-          <img src="../images/amazon_logo.png" width="100" alt="Amazon Logo" />
+<!-- First nav / header-->
+<nav class="py-2 bg-body-tertiary border-bottom text-center custom-nav" data-bs-theme="dark">
+  <div class="container d-flex flex-wrap align-items-center justify-content-between" >
+    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 link-body-emphasis text-decoration-none">
+      <img src="../images/amazon_logo.png" width="100" alt="Amazon Logo" />
+    </a>
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+      <input type="search" class="form-control form-control-lg" style="width: 100%;" placeholder="Search..." aria-label="Search" />
+    </form>
+    <ul class="nav">
+      <li class="nav-item"><a href="../login/login.html" class="nav-link link-body-emphasis px-2">Login</a></li>
+      <li class="nav-item">
+        <a href="../registration/registration.html" class="nav-link link-body-emphasis px-2">Sign up</a>
+      </li>
+      <li class="nav-item">
+        <a href="../cart/cart.html" class="nav-link link-body-emphasis px-2">
+          <img src="../images/cart.svg" width="30" alt="Cart Icon">
         </a>
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0">
-          <input type="search" class="form-control form-control-lg" style="width: 100%;" placeholder="Search..." aria-label="Search" />
-        </form>
-        <ul class="nav">
-          <li class="nav-item"><a href="../login/login.html" class="nav-link link-body-emphasis px-2">Login</a></li>
-          <li class="nav-item">
-            <a href="../registration/registration.html" class="nav-link link-body-emphasis px-2">Sign up</a>
-          </li>
-          <li class="nav-item">
-            <a href="../cart/cart.html" class="nav-link link-body-emphasis px-2">
-              <img src="../images/cart.svg" width="30" alt="Cart Icon">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-
-    <header class="py-3 mb-4 border-bottom text-center" data-bs-theme="light">
-      <div class="container d-flex flex-wrap justify-content-center">
-        <ul class="nav">
-          <!-- Dropdown menu -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle link-body-emphasis px-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Departments
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Electronics</a></li>
-              <li><a class="dropdown-item" href="#">Books</a></li>
-              <li><a class="dropdown-item" href="#">Clothing</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a href="products/products.html" class="nav-link link-body-emphasis px-2">Best Sellers</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Amazon Basics</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Amazon Fresh</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pharmacy</a></li>
-          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Clothing</a></li>
+<!-- Second nav/header-->
+<header class="py-3 border-bottom text-center" data-bs-theme="light">
+  <div class="container d-flex flex-wrap justify-content-center">
+    <ul class="nav">
+      <!-- Dropdown menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle link-body-emphasis px-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Categories
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Electronics</a></li>
+          <li><a class="dropdown-item" href="#">Books</a></li>
+          <li><a class="dropdown-item" href="#">Clothing</a></li>
         </ul>
-      </div>
-    </header>
+      </li>
+      <li class="nav-item"><a href="../products/products.html" class="nav-link link-body-emphasis px-2">Best Sellers</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Amazon Basics</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Amazon Fresh</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pharmacy</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Clothing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Shoes</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Jewelry</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Household, Health, & Baby Care</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Subscribe & Save</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Buy Again</a></li>
+    </ul>
+  </div>
+</header>
 
     <!--PRODUCTS-->
 
