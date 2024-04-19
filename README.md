@@ -1,4 +1,3 @@
-
 # Redesigned Amazon Clone Using Bootstrap
 
 Description:
@@ -12,6 +11,7 @@ Home Page: Displays featured products, deals, and promotions
 User Registration Page: Allows new users to create an account
 
 User Login Page: Enables registered users to log in to their accounts
+![SignIn Page](https://github.com/moalam7/Frontend_Amazon_Clone/blob/main/images/signinhtml.PNG)
 
 Products Page: Lists various products available for purchase
 
@@ -33,10 +33,6 @@ JavaScript: Implemented for interactivity and dynamic content
 
 Bootstrap: Utilized for responsive design and UI components
 
-
-
-
 ## Acknowledgements
 
 Special thanks to the team at Amazon for inspiration and design ideas.
-
