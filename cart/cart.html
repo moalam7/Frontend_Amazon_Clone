@@ -8,10 +8,77 @@
     <link rel="stylesheet" href="../css/cart.css" />
   </head>
   <body>
-    <div class="container mt-5">
-      <h2>Shopping Cart</h2>
-      <hr />
-      <!-- Example Product 1 -->
+    <nav class="py-2 bg-body-tertiary border-bottom text-center custom-nav" data-bs-theme="dark">
+      <div class="container d-flex flex-wrap align-items-center justify-content-between">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 link-body-emphasis text-decoration-none">
+          <img src="../images/amazon_logo.png" width="100" alt="Amazon Logo" />
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+          <input
+            type="search"
+            class="form-control form-control-lg"
+            style="width: 100%"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+        </form>
+        <ul class="nav">
+          <li class="nav-item"><a href="login/login.html" class="nav-link link-body-emphasis px-2">Login</a></li>
+          <li class="nav-item">
+            <a href="registration/registration.html" class="nav-link link-body-emphasis px-2">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart/cart.html" class="nav-link link-body-emphasis px-2">
+              <img src="../images/cart.svg" width="30" alt="Cart Icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="py-3 border-bottom text-center" data-bs-theme="light">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <ul class="nav">
+          <!-- Dropdown menu -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle link-body-emphasis px-2"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Electronics</a></li>
+              <li><a class="dropdown-item" href="#">Books</a></li>
+              <li><a class="dropdown-item" href="#">Clothing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="../products/products.html" class="nav-link link-body-emphasis px-2">Best Sellers</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Amazon Basics</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Amazon Fresh</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pharmacy</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Clothing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Shoes</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Jewelry</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-body-emphasis px-2">Household, Health, & Baby Care</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Subscribe & Save</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Buy Again</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- <div class="container mt-5">
+      <h2>Shopping Cart</h2> -->
+      <!-- <hr />
+    Example Product 1
       <div class="row product">
         <div class="col-6">
           <h4>Product 1</h4>
@@ -24,7 +91,7 @@
           </div>
         </div>
       </div>
-      <!-- Example Product 2 -->
+      Example Product 2
       <div class="row product">
         <div class="col-6">
           <h4>Product 2</h4>
@@ -37,12 +104,40 @@
           </div>
         </div>
       </div>
+      <hr /> -->
 
-      <hr />
+      <div class="container mt-5">
+        <h2>Shopping Cart</h2>
+        <hr />
+        <div id="cart-items"></div>
+      </div>
+
       <div class="text-end">
-        <button class="btn btn-primary" onclick="window.location.href='../checkout/checkout.html'">Checkout</button>
+        <button class="btn btn-primary" onclick="window.location.href='../checkout/checkout.html'" onclick="checkout()">
+          Checkout
+        </button>
       </div>
     </div>
+    <script src="../scripts/script.js"></script>
   </body>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <footer class="bg-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="text-decoration-none me-4">Conditions of Use</a>
+          <a href="#" class="text-decoration-none me-4">Privacy Notice</a>
+          <a href="#" class="text-decoration-none">Help</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="mb-0">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+        <div class="col-md-4 text-end">
+          <p class="mb-0"><a href="#" class="text-decoration-none">Back to top</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

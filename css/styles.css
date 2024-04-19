@@ -271,7 +271,7 @@ body {
 
 .custom-carousel {
   position: relative;
-  height: 35rem; /* Adjust height as needed */
+  height: 35rem; /* Adjust height */
   overflow: hidden;
 }
 .carousel-bg {
@@ -289,3 +289,21 @@ body {
   width: 60%;
   z-index: 1;
 } */
+
+.card-img-top {
+  height: 200px; /* Adjust this value as needed to maintain the desired aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire space while maintaining its aspect ratio */
+}
+
+a{
+  text-decoration: none;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
